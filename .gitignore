@@ -1,0 +1,10 @@
+# Ignore folders
+images/
+font/
+
+
+# Ignore files
+favicon.svg
+index.txt
+README.md
+style-guide.md
