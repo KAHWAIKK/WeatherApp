@@ -28,5 +28,221 @@
 </head>
 <body>
     
+    <!-- HEADER -->
+     <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="logo" width="364" height="58">
+            </a>
+
+            <div class="search-view " data-search-view>
+
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Search city..." class="search-field" autocomplete="off" data-search-field>
+
+                    <span class="m-icon">search</span>
+
+                    <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler>
+                        <span class="m-icon">arrow_back</span>
+                    </button>
+                </div>
+
+                <div class="search-result" data-search-result>
+                    <ul class="view-list" data-search-list>
+    
+                        <li class="view-item">
+                            <span class="m-icon">location_on</span>
+    
+                            <div>
+                                <p class="item-title">London</p>
+                                <p class="label-2 item-subtitle">State of London, GB</p>
+                            </div>
+    
+                            <a href="#" class="item-link has-state" data-search-toggler=""></a>
+    
+                        
+                        </li>
+    
+                    </ul>
+                </div>
+
+                
+            </div>
+
+            <div class="header-actions">
+
+                <button class="icon-btn has-state" aria-label="open search" data-search-toggler>
+                    <span class="m-icon icon">search</span>
+                </button>
+
+                <a href="#/current-location" class="btn-primary has-state">
+                    <span class="m-icon">my_location</span>
+                    <span class="span">Current Location</span>
+                </a>
+            </div>
+
+            
+        </div>
+     </header>
+
+     <main>
+        <article class="container">
+
+            <div class="container-left">
+
+                <!-- CURRENT WEATHER -->
+                 <section class="section current-weather" aria-label="current weather" data-current-weather>
+                    <div class="card card-lg current-weather-card">
+
+                        <h2 class="title-2 card-title">Now</h2>
+
+                        <div class="wrapper">
+                            <p class="heading">25&deg;<sup>c</sup></p>
+
+                            <img src="./images/weather_icons/01d.png" alt="Overcast Clouds" class="weather-icon" width="64" height="64">
+                        </div>
+
+                        <p class="body-3">Overcast Clouds</p>
+
+                        <ul class="meta-list">
+                            <li class="meta-item">
+                                <span class="m-icon">calendar_today</span>
+
+                                <p class="title-3 meta-text">Thursday 16, Feb</p>
+                            </li>
+                            <li class="meta-item">
+                                <span class="m-icon">location_on</span>
+
+                                <p class="title-3 meta-text">London, GB</p>
+                            </li>
+                        </ul>
+                    </div>
+                 </section>
+
+                 <!-- FORECAST -->
+
+                 <section class="section forecast" aria-labelledby="forecast-label" data-5-day-forecast>
+                    <h2 class="title" id="forecast-label">5 Days Forecast</h2>
+                    <div class="card card-lg forecast-card">
+                        <ul>
+
+                            <li class="card-item">
+                                <div class="icon-wrapper">
+                                    <img src="/images/weather_icons/01n.png" alt="Overcast Clouds"class="weather-icon" width="36" height="36">
+
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+                            </li>
+
+                            <li class="card-item">
+                                <div class="icon-wrapper">
+                                    <img src="/images/weather_icons/01n.png" alt="Overcast Clouds"class="weather-icon" width="36" height="36">
+
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+                            </li>
+
+                            <li class="card-item">
+                                <div class="icon-wrapper">
+                                    <img src="/images/weather_icons/01n.png" alt="Overcast Clouds"class="weather-icon" width="36" height="36">
+
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+                            </li>
+
+                            <li class="card-item">
+                                <div class="icon-wrapper">
+                                    <img src="/images/weather_icons/01n.png" alt="Overcast Clouds"class="weather-icon" width="36" height="36">
+
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+                            </li>
+
+                            <li class="card-item">
+                                <div class="icon-wrapper">
+                                    <img src="/images/weather_icons/01n.png" alt="Overcast Clouds"class="weather-icon" width="36" height="36">
+
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                 </section>
+            </div>
+
+
+            <div class="container-right">
+
+                <!-- HIGHLIGHTS -->
+
+                <section class="section highlights" aria-labelledby="highlights-label" data-highlights>
+                    <div class="card card-lg">
+
+                        <h2 class="title-2" id="highlights-label">Todays Highlights</h2>
+
+                        <div class="highlight-list">
+                            <div class="card card-sn highlight-card one">
+                                <h3 class="title-3">Air Quality Index</h3>
+                                
+                                <div class="wrapper">
+
+                                    <span class="m-icon">air</span>
+                                    <ul class="card-list">
+
+                                        <li class="card-item">
+                                            <p class="title-1">23.3</p>
+                                            <p class="label-1">PM <sub>2.5</sub></p>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <p class="title-1">23.3</p>
+                                            <p class="label-1">PM <sub>2.5</sub></p>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <p class="title-1">23.3</p>
+                                            <p class="label-1">PM <sub>2.5</sub></p>
+                                        </li>
+
+                                        <li class="card-item">
+                                            <p class="title-1">23.3</p>
+                                            <p class="label-1">PM <sub>2.5</sub></p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+     </main>
 </body>
 </html>
