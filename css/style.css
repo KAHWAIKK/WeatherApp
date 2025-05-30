@@ -112,9 +112,9 @@ input{
 button{
     cursor: pointer;
 }
-sub{ vertical-align: sub; }  
+sub{ vertical-align: baseline; }  
 /*  */
-sup{ vertical-align: super; }
+sup{ vertical-align: top; }
 html{
     font-family: var(--ff-nunito-sans);
     font-size: 10px;
