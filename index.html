@@ -35,12 +35,12 @@
                 <img src="./images/logo.png" alt="logo" width="364" height="58">
             </a>
 
-            <div class="search-view " data-search-view>
+            <div class="search-view active" data-search-view>
 
                 <div class="search-wrapper">
                     <input type="search" name="search" placeholder="Search city..." class="search-field" autocomplete="off" data-search-field>
 
-                    <span class="m-icon">search</span>
+                    <span class="m-icon leading-icon">search</span>
 
                     <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler>
                         <span class="m-icon">arrow_back</span>
@@ -487,7 +487,7 @@
             </footer>
             </div>
 
-            .loading
+            <div class="loading" data-loading></div>
 
 
 
@@ -495,5 +495,20 @@
 
         </article>
      </main>
+
+
+
+     <!-- #404 section -->
+
+     <section class="error-content" data-error-content>
+
+        <h2 class="heading">404</h2>
+
+        <p class="body-1">Page Not Found</p>
+
+        <a href="#" class="btn-primary">
+            <span class="span">Go Home</span>
+        </a>
+     </section>
 </body>
 </html>
