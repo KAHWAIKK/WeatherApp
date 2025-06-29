@@ -23,7 +23,7 @@
      <!-- custom css -->
       <link rel="stylesheet" href="./css/style.css">
       <!-- custom js link -->
-       <script src="./js/main.js" type="module"></script>
+       <script src="./js/app.js" type="module"></script>
        <script type="module" src="./js/route.js"></script>
 </head>
 <body>
@@ -35,7 +35,7 @@
                 <img src="./images/logo.png" alt="logo" width="364" height="58">
             </a>
 
-            <div class="search-view active" data-search-view>
+            <div class="search-view" data-search-view>
 
                 <div class="search-wrapper">
                     <input type="search" name="search" placeholder="Search city..." class="search-field" autocomplete="off" data-search-field>
@@ -48,22 +48,7 @@
                 </div>
 
                 <div class="search-result" data-search-result>
-                    <ul class="view-list" data-search-list>
-    
-                        <li class="view-item">
-                            <span class="m-icon">location_on</span>
-    
-                            <div>
-                                <p class="item-title">London</p>
-                                <p class="label-2 item-subtitle">State of London, GB</p>
-                            </div>
-    
-                            <a href="#" class="item-link has-state" data-search-toggler=""></a>
-    
-                        
-                        </li>
-    
-                    </ul>
+                    
                 </div>
 
                 
@@ -86,7 +71,7 @@
      </header>
 
      <main>
-        <article class="container">
+        <article class="container" data-container>
 
             <div class="content-left">
 
